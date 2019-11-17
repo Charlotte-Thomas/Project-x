@@ -14,7 +14,7 @@ class App extends React.Component {
   componentDidMount() {
     // setInterval(() => this.getchRandomCocktail(), (500))
     this.fetchData()
-    this.getchRandomCocktail()
+    this.fetchRandomCocktail()
   }
 
   fetchData(value) {
@@ -29,7 +29,7 @@ class App extends React.Component {
     }
   }
 
-  getchRandomCocktail() {
+  fetchRandomCocktail() {
     const selector = document.querySelector('select')
     selector.addEventListener('change', e => {
       console.log(e.target.value)
