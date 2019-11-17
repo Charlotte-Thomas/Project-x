@@ -111,19 +111,3 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 )
-
-// react app that talks to an API 
-// drinks
-
-
-// random cocktails: https://www.thecocktaildb.com/api/json/v1/1/random.php
-
-
-// {/* <div className='dogs'> */}
-// // {this.state.dogList.map((dog, i) => {
-//   // return <div className='dog' key={i}>
-//     {/* <h2>{dog}</h2> */}
-//     // <h3>{this.state.dogList}</h3>
-//   // </div>
-// // })}
-// // </div>
